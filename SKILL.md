@@ -9,12 +9,12 @@ CLI access to the TrainingPeaks internal API. Pure Python stdlib — no pip depe
 
 ## Credentials
 
-Stored at `~/.openclaw/credentials/trainingpeaks/`:
+Stored at `~/.config/trainingpeaks/`:
 - `cookie` — `Production_tpAuth` cookie value
 - `token.json` — cached Bearer token (auto-refreshes)
 - `config.json` — cached athlete ID and account info
 
-Tokens auto-refresh from the stored cookie. Cookie lasts weeks. If expired, re-authenticate.
+`TP_AUTH_COOKIE` env var overrides the stored cookie. Tokens auto-refresh from the stored cookie. Cookie lasts weeks — if expired, re-authenticate.
 
 ## Setup: Getting Your Auth Cookie
 

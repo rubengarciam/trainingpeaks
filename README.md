@@ -33,12 +33,12 @@ python3 scripts/tp.py auth "eyJhbGci..."
 #   Athlete ID: 1113623
 ```
 
-Credentials are stored at `~/.kai/credentials/trainingpeaks/` (fallback: `~/.openclaw/credentials/trainingpeaks/`):
+Credentials are stored at `~/.config/trainingpeaks/`:
 - `cookie` — the `Production_tpAuth` cookie value
 - `token.json` — cached Bearer token (auto-refreshes)
 - `config.json` — cached athlete ID and account info
 
-Tokens auto-refresh from the stored cookie. The cookie lasts weeks — if it expires, repeat the auth step.
+`TP_AUTH_COOKIE` env var overrides the stored cookie. Tokens auto-refresh automatically. The cookie lasts weeks — if it expires, repeat the auth step.
 
 ## Usage
 
