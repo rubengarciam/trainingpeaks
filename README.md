@@ -1,6 +1,6 @@
-# TrainingPeaks CLI
+# TrainingPeaks Skill
 
-CLI access to the TrainingPeaks internal API. Pure Python stdlib — no pip dependencies.
+CLI access to the TrainingPeaks internal API. Pure Python stdlib — no pip dependencies. Works with any AI assistant that supports skills.
 
 ## Features
 
