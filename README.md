@@ -136,3 +136,7 @@ python3 scripts/tp.py log-metric 2026-04-07 pulse 44
 - Rate limiting: 150ms minimum between API requests
 - `TP_AUTH_COOKIE` env var overrides stored cookie
 - Default output is human-readable; `--json` gives raw API data
+
+## License
+
+GPL v3
